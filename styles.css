@@ -14,9 +14,25 @@ main {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 8px;
     background-color: #1F2937;
+    
 }
+
+.header_links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
 footer {
     padding: 16px;
     text-align: center;
@@ -35,4 +51,24 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+}
+.awesome_title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.awesome_subtext {
+    font-weight: 18px;
+    color: #e5e7eb;
+
+}
+
+.information {
+
+}
+
+.quote {
+    background-color: #e5e7eb;
 }
